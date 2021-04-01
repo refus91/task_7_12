@@ -1,0 +1,8 @@
+# Editor directories and files
+.git
+.hg
+.svn
+.DS_Store
+._*
+Thumbs.db
+desktop.ini

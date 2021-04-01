@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  background: #EEEFF1;
+}
+h1{
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 79px;
+  color: #000000;
+}
+h2{
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 37px;
+  color: #000000;
+}
+p{
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+}
+header{
+  height: 600px;
+}
+.navbar {
+  background: none;
+  top: 46px;
+}
+.navbar-toggler {
+  padding: .1rem 1rem;
+  margin-left: 15px;
+  font-size: 2.5rem;
+  line-height: 1;
+  border: 5px solid black;
+}
+.nav-link{
+  font-size: 16px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding-left: 42px !important;
+  color: #000000 !important;
+}
+.nav-link.active{
+  font-weight: 600;
+  color: #34547A !important;
+}
+#section_1{
+  margin-top: 10rem;
+}
+.btn-block{
+  width: 100%;
+}
+.btn-primary{
+  background: #34547A;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #FFFFFF;
+  border-radius: 0;
+}
+.form-control {
+  padding: 1rem 1rem;
+}
+#section_about{
+  height: 300px;
+  background-color: #FFF;
+  padding: 70px 0;
+}
+.about-p{
+  width: 540px;
+  text-align: center;
+}
+#section_project{
+  height: 300px;
+  background-color: #34547A;
+}
+#section_project img{
+  margin: 0 25px;
+}
+#section_skills{
+  height: 600px;
+  background-color: #FFF;
+}
+.info-text-muted{
+  font-size: 16px;
+  color: #727272;
+}
+.progress {
+  height: 4px;
+  background-color: #c4c4c4;
+  border-radius: 0;
+}
+.progress-bar {
+  background-color: #34547A;
+}
+#section_player{
+  height: 1000px;
+  padding: 70px 0;
+}
+.player-img{
+  max-height: 600px;
+}
+.play-img{
+  position: absolute;
+}
+#section_brands{
+  height: 200px;
+  background-color: #fff;
+}
+#section_brands img{
+  margin: 0 25px;
+}
+#section_contacts{
+  height: 762px;
+}
+.footer{
+  height: 200px;
+  background-color: #34547A;
+}
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+
+ }
+
+/* Small devices (landscape phones, less than 768px)  */
+@media (max-width: 767.98px) { 
+
+ }
+
+/*  Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+  #section_1{
+    margin-top: 150px;
+  }
+  #section_about {
+    margin-top: 250px;
+  }
+  #section_project, #section_brands {
+    display: none;
+  }
+  #section_player{
+    margin-top: 130px;
+    height: 700px;
+  }
+  .nav-link{
+    padding-left: 15px !important;
+  }
+}
+
+/* Large devices (desktops, less than 1200px)  */
+@media (max-width: 1199.98px) {
+
+}
+
+/*  X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) { 
+
+}
