@@ -8,8 +8,8 @@
 
 * HTML
 
-* CSS (Bootstrap)
+* CSS (Bootstrap 5)
 
 ## Как открыть/запустить
 
-https://refus91.github.io/task_7_12
+https://refus91.github.io/task_7_12/
